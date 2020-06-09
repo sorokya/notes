@@ -1,20 +1,19 @@
 #include "Command.h"
 
-Command::Command()
+Command::Command ()
 {
-    this->name = "";
-    this->description = "";
+  this->name = "";
+  this->description = "";
 }
 
-Command::Command(std::string name, std::string description)
+Command::Command (std::string name, std::string description)
 {
-    this->name = name;
-    this->description = description;
+  this->name = name;
+  this->description = description;
 }
 
-void Command::print()
+void
+Command::print ()
 {
-    std::cout << "   " << this->name
-              << "  " << this -> description
-              << std::endl;
+  std::cout << "   " << this->name << "  " << this->description << std::endl;
 }
