@@ -1,19 +1,19 @@
 #ifndef COMMAND_H
 #define COMMAND_H
 
-#include <iostream>
 #include <string>
+#include <iostream>
 
 class Command
 {
-private:
-  std::string name;
-  std::string description;
+    private:
+        std::string name;
+        std::string description;
 
-public:
-  Command ();
-  Command (std::string, std::string);
-  void print ();
+    public:
+        Command ();
+        Command (std::string, std::string);
+        void print();
 };
 
 #endif
