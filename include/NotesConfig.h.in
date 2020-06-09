@@ -1,0 +1,2 @@
+#define Notes_VERSION_MAJOR @Notes_VERSION_MAJOR@
+#define Notes_VERSION_MINOR @Notes_VERSION_MINOR@

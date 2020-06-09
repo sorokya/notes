@@ -1,7 +1,9 @@
 #include <iostream>
+#include "NotesConfig.h"
 
 int main()
 {
-    std::cout << "Hello, world!\n";
+    std::cout << "Version " << Notes_VERSION_MAJOR << "."
+              << Notes_VERSION_MINOR << std::endl;
     return 0;
 }
